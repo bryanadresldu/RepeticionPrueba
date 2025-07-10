@@ -12,7 +12,7 @@ public class loguinForm extends JFrame{
 
 
     public loguinForm(){
-        setTitle(" Loguin");
+        setTitle(" Login");
         setContentPane(loginPanel);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         pack();
