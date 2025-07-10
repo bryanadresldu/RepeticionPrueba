@@ -16,7 +16,7 @@ public class productosForm extends JFrame {
         setTitle(" Productos");
         setContentPane(productosPanel);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(200,500);
+        pack();
         setResizable(false);
         setLocationRelativeTo(null);
         setVisible(true);
