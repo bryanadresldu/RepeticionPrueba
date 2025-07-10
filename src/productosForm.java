@@ -7,10 +7,10 @@ public class productosForm extends JFrame {
 
     private JPanel productosPanel;
     private JButton regresarButton;
-    private JLabel codigo_cargar;
-    private JLabel nombre_cargar;
-    private JLabel detalle_cargar;
-    private JLabel stock_cargar;
+    private JTextField codigo_cargar;
+    private JTextField  nombre_cargar;
+    private JTextField detalle_cargar;
+    private JTextField  stock_cargar;
 
     public productosForm() {
         setTitle(" Productos");

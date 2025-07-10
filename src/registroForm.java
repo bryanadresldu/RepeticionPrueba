@@ -48,7 +48,7 @@ public class registroForm extends JFrame {
 
                         JOptionPane.showMessageDialog(null, "Producto Guardado");
                         Producto producto = new Producto(codigo, nombre, detalle, precioUnitario, stock);
-                        ListaProductos.actulizarLista(producto);
+                        ListaProductos.actualizarLista(producto);
 
                         //Limpiando
                         limpiarCampos();

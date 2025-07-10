@@ -9,9 +9,7 @@ public class loguinForm extends JFrame{
     private JButton limpiarButton;
     private JButton accesoButton;
 
-    public static void main(String[] args) {
-        new loguinForm();
-    }
+
 
     public loguinForm(){
         setTitle(" Loguin");

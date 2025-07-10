@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class ListaProductos {
    public static ArrayList<Producto> listaProductos=new ArrayList<>();
 
-   public static void actulizarLista(Producto p){
+   public static void actualizarLista(Producto p){
        listaProductos.add(p);
    }
 
